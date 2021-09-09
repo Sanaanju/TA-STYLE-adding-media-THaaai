@@ -1,0 +1,324 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #9b9b9b;
+
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.align-start {
+    align-items: flex-start;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.flex-6 {
+    flex: 0 1 60%;
+}
+.flex-48 {
+    flex: 0 1 49%;
+}
+.flex-1 {
+    flex: 0 1 40%;
+}
+.flex-2 {
+    flex: 0 1 30%;
+}
+.flex-3 {
+    flex: 0 1 30%;
+
+}
+.flex-wrk {
+    flex: 0 1 24%;
+    
+}
+.button {
+    font-size: 16px;
+    padding: 14px 24px;
+    text-align: center;
+    display: inline-block;
+    color: #ffff;
+    border-radius: 34px;
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+}
+.button-one {
+    background-color: #cF3732;
+    color: #efefef;
+    text-decoration: none;
+}
+.button-two {
+    background-color: transparent;
+    border: 2px solid #ffff;
+    text-decoration: none;
+}
+.button-two:hover {
+    border: 2px solid crimson;
+    color: white;
+    background-color: crimson;
+}
+.button-three {
+    background-color: #efefef;
+    color: #9b9b9b;
+    text-decoration: none;
+    margin-top: 11px;
+}
+.button-three:hover {
+    border: 2px solid crimson;
+    color: white;
+    background-color: crimson;
+
+}
+.mn-header {
+    margin-bottom: 26px;
+}
+.heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #393939;
+}
+.para {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    
+}
+.txt-center {
+    text-align: center;
+}
+.font-no {
+    font-size: 0;
+}
+.square {
+    width: 7px;
+    height: 7px;
+    background-color: #d8d8d8;
+    margin-right: 5px;
+    display: inline-block;
+    
+}
+.sl-image {
+    width: 100%;
+    height: auto;
+}
+.pdg {
+    padding: 80px 0;
+}
+.navbar {
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+}
+.brand {
+    font-size: 30px;
+    margin-right: 170px;
+    color: #ffff;
+    text-decoration: none;
+}
+.nav-menu a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+    text-decoration: none;
+    
+   
+}
+.nav-menu a:hover {
+    color: crimson;
+}
+.nav-menu li {
+    margin-left: 32px;
+   list-style: none;
+  
+}
+.social-media-app a {
+    font-size: 18px;
+}
+.hero {
+    height: 100vh;
+    color: #ffff;
+    background-color: #7cef69;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(19,120,228,0.8), 
+    rgba(120,243,102,0.8)
+    ), url(../block-BHaacc/assets/home-bg.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+.hero .container {
+    width: 90%;
+
+}
+.hero-cnt {
+    padding-right: 105px;
+}
+.hero-main {
+    font-size: 46px;
+    color: #ffff;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.enquiry {
+    margin-left: 30px;
+}
+.about {
+    position: relative;
+}
+.progress {
+    padding: 0 40px;
+}
+.progress-item {
+    margin-bottom: 18px;
+}
+.progress-item h3 {
+    color: #393939;
+    font-weight: 500;
+
+}
+.progress-item p {
+    color: #393939;
+}
+progress {
+    width: 100%;
+    appearance: none;
+    height: 5px;
+}
+progress::-webkit-progress-bar {
+    background-color: lightgrey;
+}
+progress::-webkit-progress-value {
+    background-color: black;
+}
+.about-image {
+    position: absolute;
+    width: 37%;
+    bottom: 0;
+}
+.blog {
+    background-color: #EFEFEF;
+}
+.article {
+    background-color: #ffff;
+    margin: 26px 0;
+
+}
+.article-content {
+    padding: 34px;
+}
+.article time {
+    color: #cF3732;
+    font-size: 18px;
+}
+.article time i {
+    margin-right: 10px;
+}
+article h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #393939;
+    margin-bottom: 14px;
+}
+.work img {
+    border-radius: 6px;
+
+}
+.contact {
+    background: linear-gradient(to right, #1277e5, 
+    #7cef69);
+}
+.contact .heading {
+    color: #ffff;
+
+}
+.form-control {
+    display: block;
+    width: 100%;
+    color: #393939;
+    padding: 17px 12px;
+    background-color: #ffff;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 18px;
+
+}
+.contact .button {
+    margin-top: 34px;
+}
+.map {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.map iframe {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.footer {
+    background: linear-gradient(to right,#424242,
+    #010101);
+}
+.footer h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffff;
+    margin-top: 60px;
+   
+}
+.footer p {
+    color: #ffff;
+}
+.footer a {
+    color: #ffff;
+    text-decoration: none;
+   
+}
+.footer address {
+    color: #ffff;
+}
+.footer a:hover {
+    color: crimson;
+}
+.footer hr {
+    margin-top: 32px;
+    border: 1px solid #5a5a5a;
+    
+}
+.footer-add-info {
+    padding-top: 30px;
+    color: #ffff;
+    padding-right: 50px;
+}
+.footer-add-info p {
+    margin-right: 34px;
+    
+}
+.footer-add-info li {
+    margin-left: 32px;
+    list-style: none;
+
+
+
+
